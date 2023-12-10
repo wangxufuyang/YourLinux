@@ -38,7 +38,7 @@ def Banner():
 def CheckPermissions():
     # Check if there are relevant permissions          
     if os.getuid() != 0:
-        print("\033[7;91mERROR: You must not run zhaoyun as root!\033[0m")
+        print("\033[7;91mERROR: You must not run Script as root!\033[0m")
         sys.exit(1)
 
 
